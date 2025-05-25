@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para ti mi princesa:\n\nT escribo este mensaje para que sepas lo mucho que te amo mi niñita hermosa, te amo dmsiado amo tu forma de ser… todo de ti me encanta.\n\nCada dia que pasa me encantas y te amo mas por todos aquellos pequeños detalles que me das.\n\n Siempre me despierto y pienso en tii,amo tu manera en como me abrazas en como me daas tus besos tan lindos y tiernos, por tus ojitos tan lindos y preciosos,me encantas por esa forma tan linda y tierna de como me amas y me demuestras tu amor t amo mas de lo que t imaginas.T amo t amo muchote mi princesita hermosa..`;  } else {
+    text = `Para mi princesa hermosa:\n\nT escribo esto mi niña para que sepas lo mucho que te amo y que me encantas.Amo tu forma de ser en todos los aspectos,en esos pequeños detalles que me das, amo tu manera tan sincera y tierna en como,me das besos , en como me abrazas me encantaass de todas las formas mi princesa.\n\nTe amo más de lo que las palabras pueden expresar mi niña preciosa.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
